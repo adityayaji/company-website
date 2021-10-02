@@ -10,13 +10,14 @@
 @import url(css/owl.carousel.css);
 @import url(css/font-awesome.min.css);
 
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     color: #999;
     font-size: 15px;
     font-family: 'Ubuntu', sans-serif; 
     line-height: 1.7;
-    scroll-behavior: smooth;
 }
 
 body.demos .section {
